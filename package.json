@@ -1,0 +1,26 @@
+{
+  "name": "roniery-eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0" 
+  },
+  "dependencies": {
+    "globals": "^15.0.0",
+    "@eslint/js": "^9.0.0",
+    "typescript-eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.0"
+  }
+}
