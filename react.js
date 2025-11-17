@@ -7,8 +7,8 @@ import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default tseslint.config(
   { ignores: ['dist', 'build', 'coverage'] }, // Pastas a ignorar globalmente
-  js.configs.recommended,
 
+  js.configs.recommended,
   ...tseslint.configs.recommended,
 
   {
@@ -44,6 +44,7 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+
       '@typescript-eslint/no-explicit-any': 'warn',
       'react/prop-types': 'off',
     },
